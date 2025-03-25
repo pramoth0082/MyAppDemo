@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - echo "Installing dependencies..."
-      - apt install -y httpd
+      - yum install -y httpd
   build:
     commands:
       - echo "Building the application..."
